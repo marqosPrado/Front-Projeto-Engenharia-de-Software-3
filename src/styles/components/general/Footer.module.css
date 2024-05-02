@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.7em;
+    width: 100%;
+    align-items: center;
+    border-top: 1px solid hsla( 0,0%,12% ,1);
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 80px;
+}
+
+.stack span {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.stackSocial {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.item {
+    margin: 0 1em;
+}
