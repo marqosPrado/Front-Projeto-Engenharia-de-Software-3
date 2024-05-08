@@ -26,6 +26,19 @@ export default function Cadastro() {
                 <div className={styles.containerForm}>
                     <Form />
                 </div>
+
+                <div className={styles.containerConsultar}>
+                    <div className={styles.containerConsultarTitle}>
+                        <h1>Consultar Livros</h1>
+                    </div>
+                    <div className={styles.containerConsultarText}>
+                        <p>Consulte os livros aqui.</p>
+                    </div>
+                    <div className={styles.containerConsultarButton}>
+                        <a href="/livro/consultar">Consulte</a>
+                    </div>
+                </div>
+
             </main>
             <Footer />
         </>

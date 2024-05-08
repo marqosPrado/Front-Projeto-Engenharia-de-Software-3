@@ -28,3 +28,34 @@
     border: 1px solid hsla( 0,0%,12% ,1);
     border-radius: 5px;
 }
+
+.containerConsultar {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+    border: 1px solid hsla( 0,0%,12% ,1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.containerConsultarText p {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: #888;
+}
+
+.containerConsultarButton a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000f3;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.containerConsultarButton a:hover {
+    background-color: white;
+    color: black;
+}

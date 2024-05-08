@@ -77,12 +77,13 @@
 .button {
     padding: 10px;
     color: azure;
-    background-color: #ff73009f;
+    background-color: #000000f3;
     border-radius: 5px;
     border: 1px solid white;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #ff7300c7;
+    background-color: white;
+    color: black;
 }

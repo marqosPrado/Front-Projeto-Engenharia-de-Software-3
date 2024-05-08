@@ -1,4 +1,5 @@
 import styles from '@/styles/components/livro/Form.module.css'
+import Input from "@nextui-org/input"
 
 export default function Formulario() {
     return (
@@ -56,7 +57,12 @@ export default function Formulario() {
                             </div>
                             <div className={styles.inputGrid}>
                                 <select name="category_id">
-                                    <option disabled>Selecione a categoria</option>
+                                    <option>Selecione a categoria</option>
+                                    <option>Comédia</option>
+                                    <option>Drama</option>
+                                    <option>Ação</option>
+                                    <option>Terror</option>
+                                    <option>Romance</option>
                                 </select>
                             </div>
                         </div>
@@ -156,7 +162,7 @@ export default function Formulario() {
                 </div>
 
                 <div>
-                    <input type="submit" value="Salvar" className={styles.button} />
+                    <button type="submit" className={styles.button}>Salvar</button>
                 </div>
             </form>
         </div>
