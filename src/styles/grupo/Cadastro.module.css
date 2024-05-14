@@ -1,4 +1,20 @@
-.title {
+.containerTitulo {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.containerTitulo h1 {
     font-family: sans-serif;
     font-size: 22px;
+}
+
+.containerText {
+    padding: 20px;
+    text-align: center;
+}
+
+.containerText p {
+    font-family: sans-serif;
+    font-size: 16px;
 }

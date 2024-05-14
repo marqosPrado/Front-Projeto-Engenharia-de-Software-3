@@ -1,3 +1,4 @@
+import {useState} from 'react'
 import Head from 'next/head';
 import Navbar from '../../../components/general/Navbar';
 import Footer from '../../../components/general/Footer';
@@ -5,6 +6,8 @@ import styles from '@/styles/livro/Cadastro.module.css';
 import Form from '../../../components/livro/Form';
 
 export default function Cadastro() {
+    const [categorias, setCategorias] = useState([])
+
     return (
         <>
             <Head>
